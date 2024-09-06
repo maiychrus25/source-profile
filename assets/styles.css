@@ -260,3 +260,25 @@ body {
 .card .inner-content .inner-message .button:hover {
   background: linear-gradient(to right, var(--bg-3), var(--bg-2));
 }
+
+@media screen and (max-width: 400px) {
+  .card .inner-content .inner-person {
+    margin: 0;
+  }
+
+  .card:hover .inner-content .inner-person {
+    margin: 37px 0;
+  }
+
+  .card .inner-content .inner-person .inner-desc {
+    font-size: 0.58rem;
+  }
+
+  .card .inner-content .inner-person .inner-desc i {
+    font-size: 20px;
+  }
+
+  .card .inner-content .inner-person .inner-name {
+    font-size: 0.9em;
+  }
+}
