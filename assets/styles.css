@@ -136,7 +136,7 @@ body {
 
 .card .inner-content .inner-person {
   padding: 40px;
-  margin: 29px 0;
+  margin: 40px 0;
   text-align: center;
   width: 100%;
   transition: 0.5s;
@@ -269,9 +269,17 @@ body {
   }
 } */
 
+ .card .inner-content .inner-person .inner-socials ul {
+  opacity: 0;
+}
+
+.card:hover .inner-content .inner-person .inner-socials ul {
+  opacity: 1;
+}
+
 @media screen and (max-width: 375px) {
   .card .inner-content .inner-person {
-    margin: 38px 0;
+    margin: 40px 0;
   }
 
   .card:hover .inner-content .inner-person {
@@ -288,13 +296,5 @@ body {
 
   .card .inner-content .inner-person .inner-name {
     font-size: 0.9em;
-  }
-
-  .card .inner-content .inner-person .inner-socials ul {
-    opacity: 0;
-  }
-
-  .card:hover .inner-content .inner-person .inner-socials ul {
-    opacity: 1;
   }
 }
