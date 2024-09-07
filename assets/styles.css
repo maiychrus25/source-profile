@@ -245,14 +245,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 150px;
-  height: 40px;
+  width: 140px;
+  height: 35px;
   color: #fff;
   border-radius: 7px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 15px;
+  font-size: 13px;
   transition: all 1s;
   background: linear-gradient(to right, #f38f5d, #f05169);
 }
@@ -260,14 +260,14 @@ body {
 .card .inner-content .inner-message .button:hover {
   background: linear-gradient(to right, var(--bg-3), var(--bg-2));
 }
-
+/* 
 @media screen and (max-width: 767.98px) {
   .card .inner-content .inner-person .inner-message a {
     width: 140px;
     height: 35px;
     font-size: 13px;
   }
-}
+} */
 
 @media screen and (max-width: 375px) {
   .card .inner-content .inner-person {
