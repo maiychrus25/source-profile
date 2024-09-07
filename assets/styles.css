@@ -261,6 +261,14 @@ body {
   background: linear-gradient(to right, var(--bg-3), var(--bg-2));
 }
 
+@media screen and (max-width: 767.98px) {
+  .card .inner-content .inner-person .inner-message a {
+    width: 140px;
+    height: 35px;
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .card .inner-content .inner-person {
     margin: 38px 0;
