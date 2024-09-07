@@ -279,7 +279,7 @@ body {
 
 @media screen and (max-width: 375px) {
   .card .inner-content .inner-person {
-    margin: 38px 0;
+    margin: 35px 0;
   }
 
   .card:hover .inner-content .inner-person {
